@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
+import background from './assests/background.mp4';
 import './App.css';
+import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
+import Navbar from './mycomponent/navbar';
+import Contact from './mycomponent/Contact';
+import Home from './mycomponent/Home';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>    
+      <Navbar/>
+    
+    <div className='relative h-screen overflow-hidden sticky top-0 h-screen flex flex-col' >
+    <video src={background} autoPlay muted loop className=" absolute object-cover left-0 w-full h-full"></video>
+      
+      <Home/>
+     </div> 
+      <Contact/>
+      
+    
+    
+    
+    </>
+
   );
 }
 
