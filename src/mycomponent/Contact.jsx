@@ -1,6 +1,54 @@
-import React from 'react'
+import React ,{useState}from 'react'
 
 const Contact = () => {
+const [data,userdata]=useState({
+  name:"",
+  email:"",
+  message:""
+})
+console.log(data)
+let name,value;
+
+const setdata=(event)=>{
+name = event.target.name
+value= event.target.value  
+
+userdata({...data,[name]:value})
+
+}
+const submitdata= async(event)=>{
+
+  event.preventDefault();
+  const { name, email,message}=data
+
+  if (name && email && message){
+
+  
+  const res= await fetch("https://portfolio-e3f48-default-rtdb.firebaseio.com/userDataRecord.json",{
+    method :"POST",
+    Headers:{
+      "content-Type" : "application/json",
+    },
+    body: JSON.stringify({
+      name, email,message
+    })
+  }
+
+  )
+  if (res){
+alert("data stored")
+  }
+  else{
+alert("please fill the data")
+  } 
+  
+}
+else{
+alert("please fill the data")
+  }
+
+}
+
   return (
     <div 
       id='contact' 
@@ -37,12 +85,12 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row gap-4">
           <div className="w-full">
             <label className="block text-white mb-3 text-lg">Name</label>
-            <input type="text" name="Name" required placeholder="Abdullah"
+            <input type="text" name="name" onChange ={setdata} required placeholder="Abdullah"
               className="w-full px-4 py-2 rounded bg-[#1a1a1a] text-white" />
           </div>
           <div className="w-full">
             <label className="block text-white mb-3 text-lg">Email</label>
-            <input type="email" name="Email" required placeholder="example@example.com"
+            <input type="email" name="email" onChange ={setdata} required placeholder="example@example.com"
               className="w-full px-4 py-2 rounded bg-[#1a1a1a] text-white" />
           </div>
         </div>
@@ -50,14 +98,14 @@ const Contact = () => {
         {/* Message */}
         <div>
           <label className="block text-white mb-3 text-lg">Message</label>
-          <textarea name="Message" required placeholder="We want you to perform in our club..."
+          <textarea name="message" onChange ={setdata} required placeholder="We want you to perform in our club..."
             className="w-full px-4 py-2 rounded bg-[#1a1a1a] text-white h-32"></textarea>
         </div>
 
         {/* Submit Button */}
         <div>
           <button type="submit"
-            className="w-full py-3 rounded-full bg-[#fbd295] text-black font-semibold hover:opacity-90 transition">
+            className="w-full py-3 rounded-full bg-[#fbd295] text-black font-semibold hover:opacity-90 transition" onClick={submitdata}>
             Submit
           </button>
         </div>
