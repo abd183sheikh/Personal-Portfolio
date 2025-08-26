@@ -17,16 +17,12 @@ function App() {
   return (
     <>    
     
-    {/* <Navbar/> */}
-    {/* <div className='relative h-screen overflow-hidden sticky top-0 h-screen flex flex-col ' id='home' >
-    <video src={background} autoPlay muted loop className=" absolute object-cover left-0 w-full h-full"></video>
-      
-      <Home/>
-     </div>  */}
-     {/* <Home/> */}
+    <Navbar/>
+   
+     <Home/>
     <About/>  
     
-    {/* <SocialScroll/> */}
+    <SocialScroll/>
       <Project/>  
         <Contact/>
       

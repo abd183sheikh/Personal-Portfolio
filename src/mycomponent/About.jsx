@@ -94,8 +94,7 @@ const About = () => {
           
           <h1 className="text-white font-bold mb-7 text-2xl skills">MY SKILLS</h1>
         <div className="grid md:grid-cols-4 grid-cols-3 gap-x-5  max-md:ml-[2rem] max-lg:mr-[3rem] lg:mr-5">
-
-                
+      
 
         <div className="animate-floatUp bg-[#03f0fc] text-black w-24 h-24 flex items-center justify-center rounded-full overflow-hidden shadow-[0_0_25px_5px_rgba(3,240,252,0.3)] m-7 font-bold design max-sm:ml-3 ">Python</div>
         <div className="animate-floatDown bg-[#03f0fc] text-black w-24 h-24 flex items-center justify-center rounded-full overflow-hidden m-7 shadow-[0_0_25px_5px_rgba(3,240,252,0.4)] font-mono font-bold design max-sm:ml-3">Java</div>
@@ -109,6 +108,7 @@ const About = () => {
         <div className="animate-floatDown bg-[#03f0fc] text-black w-24 h-24 flex items-center justify-center rounded-full  overflow-hidden shadow-[0_0_25px_5px_rgba(3,240,252,0.4)] m-7 font-mono font-bold design max-sm:ml-3">Team work</div>
         <div className="animate-floatUp bg-[#03f0fc] text-black w-24 h-24 flex flex-col items-center justify-center  rounded-full  overflow-hidden shadow-[0_0_25px_5px_rgba(3,240,252,0.4)] m-7 font-mono font-bold design max-sm:ml-3"><span>Time</span><span className="text-[14px]">Management</span></div>
         <div className="animate-floatDown bg-[#03f0fc] text-black w-24 h-24 flex items-center justify-center rounded-full  overflow-hidden shadow-[0_0_25px_5px_rgba(3,240,252,0.4)] text-[14px] m-7 font-mono font-bold design max-sm:ml-3">Adaptability</div>
+        
         </div>      
 
         </div>

@@ -31,7 +31,7 @@ const Home = () => {
         <a href="https://www.linkedin.com/in/abdullah-noor-30b517264/" target="_blank" className="inline-block motion-translate-x-in-100">
   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="w-7 h-7 m-[5px] hover:scale-110 transition-transform duration-200 rounded-full" />
 </a>
-<a href="https://www.instagram.com/your-instagram-id" target="_blank">
+<a href="https://www.instagram.com/___abdullahsheikh___" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" className="w-7 h-7 m-[5px] hover:scale-110 transition-transform duration-200  rounded-full"/>
   </a>
 
