@@ -1,12 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    transition: all 0.3s ease-in-out;
+    scroll-behavior: smooth;
+}
 
 body{
     font-family:'Times New Roman', Times, serif;
-    overflow-x: hidden;
-    
-    
-    
+    overflow-x: hidden;    
      
+}
+#social{
+   font-family: "Edu NSW ACT Cursive", cursive;
+
+}
+.skills{
+    font-family: "Macondo", cursive;
+}
+.design{
+    font-family: "Pacifico", cursive;
+    font-weight: 550;
 }
