@@ -93,7 +93,7 @@ const SocialScroll = () => {
       {/* Tabs Section */}
       <section className="section_tabs rounded-0">
         <div className="flex justify-center content-center items-center h-[10rem]">
-          <h1 className="font-bold text-white text-[2rem] max-sm:ml-[2rem]" id="social">
+          <h1 className="font-bold text-white text-[2rem]" id="social">
             Community & Social Activities
           </h1>
         </div>

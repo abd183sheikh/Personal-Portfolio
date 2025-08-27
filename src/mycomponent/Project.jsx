@@ -53,7 +53,7 @@ const Project = () => {
             </p>
           </div>
           <div className="p-3 pt-0">
-            <a href="" className='btn btn-primary text-sm py-2'>View Project</a>
+            <a href="https://github.com/abd183sheikh/Traffic-Flow-Analysis.git" className='btn btn-primary text-sm py-2'>View Project</a>
           </div>
         </div>
 
