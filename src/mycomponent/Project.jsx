@@ -15,7 +15,7 @@ const Project = () => {
       
       {/* heading */}
       <div className='flex flex-col items-center content-center justify-center mt-5 text-center max-w-4xl z-10'>
-        <h2 className='font-mono text-2xl sm:text-3xl lg:text-4xl text-blue-900 mb-2'>
+        <h2 className='font-mono text-2xl sm:text-3xl lg:text-4xl text-blue-900 mb-2 hover-underline'>
           Featured <span className="text-blue-400">Project</span>
         </h2>
         <p className='text-white text-sm sm:text-base lg:text-lg max-w-2xl px-4 mb-2'>
