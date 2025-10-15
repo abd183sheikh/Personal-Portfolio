@@ -41,7 +41,7 @@ const Home = () => {
   </a>
   </div>
   <div className="flex items-center justify-center">
-  <a href="https://drive.google.com/file/d/1b41o_hApFOvFwEr6ps8-vGHg0KU86MsJ/view?usp=sharing" target="_blank">
+  <a href="https://drive.google.com/file/d/1bh7PPj5UW85IRO78Wc17xZQPCqJpX19i/view?usp=sharing" target="_blank">
 <button className="text-black text font-bold bg-[#fbd295] p-1 lg:p-2 hover:bg-[#fcc97c] motion-preset-slide-left-lg motion-duration-2000 motion-delay-100 motion-ease-bounce text-[10px] lg:text-[15px]">DOWNLOAD CV</button>
 </a>
 </div>
