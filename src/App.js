@@ -1,7 +1,7 @@
-import React from 'react';
-import background from './assests/background.mp4';
+
+
 import './App.css';
-import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
+
 import Navbar from './mycomponent/navbar';
 import Contact from './mycomponent/Contact';
 import Home from './mycomponent/Home';

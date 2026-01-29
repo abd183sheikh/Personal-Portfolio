@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import background from "../assests/about_background.jpg";
+
 import './Scroll.css'
 import pic1 from "../assests/pic_1.jpg"
 import pic2 from "../assests/pic_2.jpg"

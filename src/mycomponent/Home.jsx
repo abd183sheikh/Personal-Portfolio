@@ -28,20 +28,20 @@ const Home = () => {
       {/* icon */}
       <div className="flex flex-row md:flex-row gap-[2rem]">
         <div className="flex motion-preset-slide-right-lg motion-duration-2000 motion-delay-100 motion-ease-bounce">
-        <a href="https://www.linkedin.com/in/abdullah-noor-30b517264/" target="_blank" className="inline-block motion-translate-x-in-100">
+        <a href="https://www.linkedin.com/in/abdullah-noor-30b517264/" target="_blank" rel="noopener noreferrer" className="inline-block motion-translate-x-in-100">
   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="w-7 h-7 m-[5px] hover:scale-110 transition-transform duration-200 rounded-full" />
 </a>
-<a href="https://www.instagram.com/___abdullahsheikh___" target="_blank">
+<a href="https://www.instagram.com/___abdullahsheikh___" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" className="w-7 h-7 m-[5px] hover:scale-110 transition-transform duration-200  rounded-full"/>
   </a>
 
 
-  <a href="https://github.com/abd183sheikh" target="_blank">
+  <a href="https://github.com/abd183sheikh" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" className="w-7 h-7 m-[5px] hover:scale-110 transition-transform duration-200 rounded-full"/>
   </a>
   </div>
   <div className="flex items-center justify-center">
-  <a href="https://drive.google.com/file/d/1bh7PPj5UW85IRO78Wc17xZQPCqJpX19i/view?usp=sharing" target="_blank">
+  <a href="https://drive.google.com/file/d/1bh7PPj5UW85IRO78Wc17xZQPCqJpX19i/view?usp=sharing" target="_blank" rel="noopener noreferrer">
 <button className="text-black text font-bold bg-[#fbd295] p-1 lg:p-2 hover:bg-[#fcc97c] motion-preset-slide-left-lg motion-duration-2000 motion-delay-100 motion-ease-bounce text-[10px] lg:text-[15px]">DOWNLOAD CV</button>
 </a>
 </div>
