@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "motion/react"
+
 import Aboutbackground from "../assests/about_background.jpg";
 import GotoSchool from "../assests/go_to_school.png";
-import { useRef } from 'react';
+
 
 
 const About = () => {
@@ -41,8 +40,8 @@ const About = () => {
           Recent B.Tech Computer Science graduate with a disciplined and
           methodical approach to problem-solving. Developed leadership and
           teamwork skills as a Social Club Coordinator, gaining experience in
-          event management and effective collaboration. Passionate about <a className="underline decoration-sky-500 underline-offset-4">machine
-          learning</a> and <a className="underline decoration-pink-500 underline-offset-4">web development</a>, with hands-on experience in building
+          event management and effective collaboration. Passionate about <span className="underline decoration-sky-500 underline-offset-4">machine
+          learning</span> and <span className="underline decoration-pink-500 underline-offset-4">web development</span>, with hands-on experience in building
           solutions to complex problems and designing responsive, user-friendly
           applications. Eager to apply my skills in a professional setting,
           contribute to impactful projects, and grow within the dynamic

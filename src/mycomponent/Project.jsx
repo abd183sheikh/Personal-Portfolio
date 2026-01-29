@@ -1,6 +1,3 @@
-import { div } from 'motion/react-client'
-import React,{ useEffect, useRef, useState } from 'react'
-import projectback from "../assests/projectback.jpg"
 import earth from "../assests/rotating_earth.mp4"
 import cnn from "../assests/cnn_model.jpg"
 import yolo from "../assests/yolo.png"
@@ -38,7 +35,7 @@ const Project = () => {
             </p>
           </div>
           <div className="p-3 pt-0">
-            <a href="" className='btn btn-primary text-sm py-2'>View Project</a>
+            <button className='btn btn-primary text-sm py-2'>View Project</button>
           </div>
         </div>
 
@@ -68,7 +65,7 @@ const Project = () => {
             </p>
           </div>
           <div className="p-3 pt-0">
-            <a href="" className='btn btn-primary text-sm py-2'>View Project</a>
+            <button className='btn btn-primary text-sm py-2'>View Project</button>
           </div>
         </div>
       </div>
